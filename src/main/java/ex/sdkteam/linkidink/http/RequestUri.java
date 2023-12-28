@@ -1,5 +1,7 @@
 package ex.sdkteam.linkidink.http;
 
+
+
 /**
  * @class RequestUri
  * <p>
@@ -12,6 +14,10 @@ package ex.sdkteam.linkidink.http;
  * </p>
  */
 public class RequestUri {
+
+    public RequestUri() {
+
+    }
 
 
 }

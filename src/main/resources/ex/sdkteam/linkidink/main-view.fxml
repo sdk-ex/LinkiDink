@@ -27,9 +27,9 @@
                 <VBox.margin>
                   <Insets left="100.0" right="100.0" />
                 </VBox.margin>
-                  <TextField prefHeight="40.0" prefWidth="793.0">
+                  <TextField fx:id="Input_TextField" prefHeight="40.0" prefWidth="793.0">
                   </TextField>
-                <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="371.0" text="Go">
+                <Button fx:id="Send_Button" mnemonicParsing="false" prefHeight="39.0" prefWidth="371.0" text="Send">
                   <HBox.margin>
                     <Insets left="10.0" />
                   </HBox.margin>

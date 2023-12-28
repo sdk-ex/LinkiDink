@@ -1,17 +1,20 @@
 package ex.sdkteam.linkidink;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.RadioMenuItem;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
+
+import java.io.BufferedReader;
 
 public class MainController {
 
     /* Class Constructors for UI Objects */
 
     /* Input and Button UI Constructors */
+    @FXML
+    TextField Input_TextField = new TextField();
+    @FXML
+    Button Send_Button = new Button();
     @FXML
     ToggleGroup FileType = new ToggleGroup();
 
@@ -24,6 +27,8 @@ public class MainController {
     ImageView Progress_Icon_ImageView = new ImageView();
 
 
+    public void initiateRequest() {
 
+    }
 
 }
